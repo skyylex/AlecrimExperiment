@@ -21,7 +21,7 @@ class AcountsViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        let count = dataContext.people.count()
+        let count = dataContext.people.count() /// (correct)
         return count
     }
     
@@ -33,9 +33,9 @@ class AcountsViewController: UITableViewController {
             accountsCount++
         }
         
-        let accountFirst = dataContext.people.first() /// nil
-        let accounts = dataContext.people.toArray()   /// 0
-        let peopleAlive = dataContext.people.any()    /// true
+        let accountFirst = dataContext.people.first() /// nil (incorrect)
+        let accounts = dataContext.people.toArray()   /// 0 (incorrect)
+        let peopleAlive = dataContext.people.any()    /// (correct)
         if accounts.count > 0 {
             cell.textLabel!.text = accounts[indexPath.row].name
         }
