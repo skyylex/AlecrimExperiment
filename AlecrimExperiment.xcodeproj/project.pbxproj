@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		4209D5531B5D32EC00DD3B37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4209D5521B5D32EC00DD3B37 /* AppDelegate.swift */; };
 		4209D5561B5D32EC00DD3B37 /* AlecrimExperiment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4209D5541B5D32EC00DD3B37 /* AlecrimExperiment.xcdatamodeld */; };
-		4209D5581B5D32EC00DD3B37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4209D5571B5D32EC00DD3B37 /* ViewController.swift */; };
+		4209D5581B5D32EC00DD3B37 /* AcountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4209D5571B5D32EC00DD3B37 /* AcountsViewController.swift */; };
 		4209D55B1B5D32EC00DD3B37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4209D5591B5D32EC00DD3B37 /* Main.storyboard */; };
 		4209D55D1B5D32EC00DD3B37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4209D55C1B5D32EC00DD3B37 /* Images.xcassets */; };
 		4209D5601B5D32EC00DD3B37 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4209D55E1B5D32EC00DD3B37 /* LaunchScreen.xib */; };
 		4209D56C1B5D32EC00DD3B37 /* AlecrimExperimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4209D56B1B5D32EC00DD3B37 /* AlecrimExperimentTests.swift */; };
+		4209D5761B5D377800DD3B37 /* DataContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4209D5751B5D377800DD3B37 /* DataContext.swift */; };
+		4209D5791B5D3B7500DD3B37 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4209D5781B5D3B7500DD3B37 /* Account.swift */; };
+		75B25C7FC528BB5F171E2428 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598C75A307F8C189ED0A4484 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +30,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3434A1AEA7C41E7A8279CB9A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		4209D54D1B5D32EC00DD3B37 /* AlecrimExperiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlecrimExperiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4209D5511B5D32EC00DD3B37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4209D5521B5D32EC00DD3B37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4209D5551B5D32EC00DD3B37 /* AlecrimExperiment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AlecrimExperiment.xcdatamodel; sourceTree = "<group>"; };
-		4209D5571B5D32EC00DD3B37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4209D5571B5D32EC00DD3B37 /* AcountsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcountsViewController.swift; sourceTree = "<group>"; };
 		4209D55A1B5D32EC00DD3B37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4209D55C1B5D32EC00DD3B37 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4209D55F1B5D32EC00DD3B37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4209D5651B5D32EC00DD3B37 /* AlecrimExperimentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlecrimExperimentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4209D56A1B5D32EC00DD3B37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4209D56B1B5D32EC00DD3B37 /* AlecrimExperimentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlecrimExperimentTests.swift; sourceTree = "<group>"; };
+		4209D5751B5D377800DD3B37 /* DataContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataContext.swift; path = ../DataContext.swift; sourceTree = "<group>"; };
+		4209D5781B5D3B7500DD3B37 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		598C75A307F8C189ED0A4484 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B527505867C54381BC828686 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75B25C7FC528BB5F171E2428 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +73,8 @@
 				4209D54F1B5D32EC00DD3B37 /* AlecrimExperiment */,
 				4209D5681B5D32EC00DD3B37 /* AlecrimExperimentTests */,
 				4209D54E1B5D32EC00DD3B37 /* Products */,
+				EE722D9D422A988A811ED4AC /* Pods */,
+				BB907540E974B495C20E2741 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,12 +90,12 @@
 		4209D54F1B5D32EC00DD3B37 /* AlecrimExperiment */ = {
 			isa = PBXGroup;
 			children = (
+				4209D5771B5D3B1900DD3B37 /* Model */,
 				4209D5521B5D32EC00DD3B37 /* AppDelegate.swift */,
-				4209D5571B5D32EC00DD3B37 /* ViewController.swift */,
+				4209D5571B5D32EC00DD3B37 /* AcountsViewController.swift */,
 				4209D5591B5D32EC00DD3B37 /* Main.storyboard */,
 				4209D55C1B5D32EC00DD3B37 /* Images.xcassets */,
 				4209D55E1B5D32EC00DD3B37 /* LaunchScreen.xib */,
-				4209D5541B5D32EC00DD3B37 /* AlecrimExperiment.xcdatamodeld */,
 				4209D5501B5D32EC00DD3B37 /* Supporting Files */,
 			);
 			path = AlecrimExperiment;
@@ -115,6 +126,33 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4209D5771B5D3B1900DD3B37 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4209D5541B5D32EC00DD3B37 /* AlecrimExperiment.xcdatamodeld */,
+				4209D5751B5D377800DD3B37 /* DataContext.swift */,
+				4209D5781B5D3B7500DD3B37 /* Account.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB907540E974B495C20E2741 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				598C75A307F8C189ED0A4484 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE722D9D422A988A811ED4AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B527505867C54381BC828686 /* Pods.debug.xcconfig */,
+				3434A1AEA7C41E7A8279CB9A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,9 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4209D56F1B5D32EC00DD3B37 /* Build configuration list for PBXNativeTarget "AlecrimExperiment" */;
 			buildPhases = (
+				21E0DA1575B6BB8F2FFF260F /* Check Pods Manifest.lock */,
 				4209D5491B5D32EC00DD3B37 /* Sources */,
 				4209D54A1B5D32EC00DD3B37 /* Frameworks */,
 				4209D54B1B5D32EC00DD3B37 /* Resources */,
+				F9479333AAE614C2EDD6801A /* Embed Pods Frameworks */,
+				563EC91FA1DEB0175F5B33BE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,13 +251,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21E0DA1575B6BB8F2FFF260F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		563EC91FA1DEB0175F5B33BE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9479333AAE614C2EDD6801A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4209D5491B5D32EC00DD3B37 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4209D5581B5D32EC00DD3B37 /* ViewController.swift in Sources */,
+				4209D5791B5D3B7500DD3B37 /* Account.swift in Sources */,
+				4209D5581B5D32EC00DD3B37 /* AcountsViewController.swift in Sources */,
 				4209D5561B5D32EC00DD3B37 /* AlecrimExperiment.xcdatamodeld in Sources */,
+				4209D5761B5D377800DD3B37 /* DataContext.swift in Sources */,
 				4209D5531B5D32EC00DD3B37 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +433,7 @@
 		};
 		4209D5701B5D32EC00DD3B37 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B527505867C54381BC828686 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AlecrimExperiment/Info.plist;
@@ -352,6 +444,7 @@
 		};
 		4209D5711B5D32EC00DD3B37 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3434A1AEA7C41E7A8279CB9A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AlecrimExperiment/Info.plist;
@@ -413,6 +506,7 @@
 				4209D5711B5D32EC00DD3B37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4209D5721B5D32EC00DD3B37 /* Build configuration list for PBXNativeTarget "AlecrimExperimentTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +515,7 @@
 				4209D5741B5D32EC00DD3B37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -431,7 +526,8 @@
 				4209D5551B5D32EC00DD3B37 /* AlecrimExperiment.xcdatamodel */,
 			);
 			currentVersion = 4209D5551B5D32EC00DD3B37 /* AlecrimExperiment.xcdatamodel */;
-			path = AlecrimExperiment.xcdatamodeld;
+			name = AlecrimExperiment.xcdatamodeld;
+			path = ../AlecrimExperiment.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
